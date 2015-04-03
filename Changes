@@ -1,5 +1,7 @@
 Revision history for Perl extension File-Find-Rule-Perl
 
+        - fix tests for ExtUtils::MakeMaker 7.05_* (ETHER)
+
 1.13 Wed 30 Oct 2012
 	- Updating to Module::Install (ADAMK)
 

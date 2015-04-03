@@ -48,6 +48,8 @@ SCOPE: {
 			and
 			! /\bblib\b/
 			and
+			! /\b_eumm\b/
+			and
 			! $ignore{$_}
 		} $rule->in( curdir() );
 
