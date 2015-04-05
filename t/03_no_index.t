@@ -30,6 +30,7 @@ SCOPE: {
 		my %ignore = map { $_ => 1 } qw{
 			Makefile
 			MANIFEST
+                        MANIFEST.SKIP
 			LICENSE
 			README
 			pm_to_blib
