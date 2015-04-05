@@ -1,5 +1,3 @@
-#!/usr/bin/perl
-
 # Load testing for File::Find::Rule::Perl
 
 use strict;
