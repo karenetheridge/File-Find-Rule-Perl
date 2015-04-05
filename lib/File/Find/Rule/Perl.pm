@@ -45,12 +45,9 @@ use File::Find::Rule  0.20 ();
 use Params::Util      0.38 ();
 use Parse::CPAN::Meta 1.38 ();
 
-use vars qw{$VERSION @ISA @EXPORT};
-BEGIN {
-	$VERSION = '1.13';
-	@ISA     = 'File::Find::Rule';
-	@EXPORT  = @File::Find::Rule::EXPORT;
-}
+our $VERSION = '1.13';
+use base 'File::Find::Rule';
+our @EXPORT  = @File::Find::Rule::EXPORT;
 
 use constant FFR => 'File::Find::Rule';
 
