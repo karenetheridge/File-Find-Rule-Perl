@@ -51,6 +51,7 @@ SCOPE: {
 
 		is_deeply( \@files, [ qw{
 			Changes
+                        META.json
 			META.yml
 			Makefile.PL
 			lib/File/Find/Rule/Perl.pm
