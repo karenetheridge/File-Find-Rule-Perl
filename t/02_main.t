@@ -3,6 +3,7 @@
 # Testing for File::Find::Rule::Perl
 
 use strict;
+use warnings;
 use lib ();
 use File::Spec::Functions ':ALL';
 BEGIN {

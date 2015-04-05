@@ -35,8 +35,9 @@ distribution in various parts of the CPAN ecosystem.
 
 =cut
 
-use 5.00503;
+use 5.006;
 use strict;
+use warnings;
 use Carp;
 use File::Spec        0.82 ();
 use File::Spec::Unix       ();
