@@ -1,9 +1,5 @@
 use strict;
 use warnings;
-BEGIN {
-	$|  = 1;
-	$^W = 1;
-}
 
 use Test::More tests => 22;
 use File::Spec::Functions ':ALL';
