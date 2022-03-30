@@ -1,5 +1,7 @@
 Revision history for Perl extension File-Find-Rule-Perl
 
+        - fix test when run after 'make clean' (RT#142008)
+
 1.15    2015-04-05
         - fix tests from 1.14 release
 
